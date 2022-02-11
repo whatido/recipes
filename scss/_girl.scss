@@ -1,0 +1,179 @@
+.girl {
+	position: fixed;
+    bottom: 231px;
+    right: 430px;
+    z-index: 999;
+}
+
+// spite
+.chibi {
+	position: absolute;
+}
+
+.Ghead {
+	background: url(../imgs/girl.png) no-repeat -149px -117px;
+	width: 135px;
+	height: 137px;
+	z-index: 9;
+}
+
+.Gbody {
+	background: url(../imgs/girl.png) no-repeat -940px -193px;
+	width: 67px;
+	height: 61px;
+	transform: rotate(90deg);
+	top: 130px;
+	left: 50px;
+	z-index: 1;
+}
+
+.Ghair {
+	background: url(../imgs/girl.png) no-repeat -667px -168px;
+	width: 98px;
+	height: 86px;
+	z-index: 10;
+	left: 16px;
+}
+
+.Ghairaf {
+	background: url(../imgs/girl.png) no-repeat -2px -88px;
+	width: 145px;
+	height: 166px;
+	z-index: 0;
+	left: -12px;
+	top: 11px;
+}
+
+.Ghairr {
+	background: url('../imgs/girl.png') no-repeat -559px -173px;
+	width: 106px;
+	height: 81px;
+	transform: rotate(90deg);
+	z-index: 9;
+	left: 54px;
+}
+
+.Ghairl {
+	background: url(../imgs/girl.png) no-repeat -2px -8px;
+	width: 115px;
+	height: 78px;
+	transform: rotate(90deg);
+	z-index: 12;
+	left: -29px;
+	top: 14px;
+}
+
+.GhairStar {
+	background: url(../imgs/girl.png) no-repeat -484px -111px;
+	width: 52px;
+	height: 38px;
+	transform: rotate(90deg);
+	z-index: 11;
+	left: 40px;
+	top: -38px;
+}
+
+.Geyel {
+	background: url(../imgs/girl.png) no-repeat -240px -84px;
+	width: 41px;
+	height: 31px;
+	z-index: 11;
+	left: 40px;
+	top: 82px;
+}
+
+.Geyer {
+	background: url(../imgs/girl.png) no-repeat -557px -116px;
+	width: 30px;
+	height: 27px;
+	z-index: 11;
+	left: 97px;
+	top: 88px;
+}
+
+.Glip {
+	background: url(../imgs/girl.png) no-repeat -807px -245px;
+	width: 13px;
+	height: 9px;
+	z-index: 11;
+	left: 80px;
+	top: 123px;
+}
+
+.Gfootr {
+	background: url(../imgs/girl.png) no-repeat -146px -2px;
+	width: 22px;
+	height: 28px;
+	z-index: 11;
+    left: 83px;
+    top: 204px;
+}
+
+.Gfootl {
+	background: url('../imgs/girl.png') no-repeat -589px -115px;
+	width: 30px;
+	height: 22px;
+	transform: rotate(90deg);
+	z-index: 11;
+    left: 58px;
+    top: 207px;
+}
+
+.Gfootlno {
+	background: url('../imgs/girl.png') no-repeat -767px -165px;
+	width: 42px;
+	height: 24px;
+	transform: rotate(90deg);
+	z-index: 0;
+    left: 76px;
+    top: 180px;
+}
+
+.Gfootrno {
+	background: url('../imgs/girl.png') no-repeat -284px -87px;
+	width: 49px;
+	height: 25px;
+	transform: rotate(90deg);
+	z-index: 0;
+	left: 48px;
+    top: 180px;
+}
+
+.Ghandl {
+	background: url('../imgs/girl.png') no-repeat -803px -130px;
+	width: 26px;
+	height: 33px;
+	z-index: 11;
+	left: 58px;
+	top: 133px;
+}
+
+.Ghandl2 {
+	background: url('../imgs/girl.png') no-repeat -372px -81px;
+	width: 38px;
+	height: 26px;
+	transform: rotate(90deg);
+	z-index: 11;
+	left: 41px;
+	top: 160px;
+}
+
+.Ghandr {
+	background: url('../imgs/girl.png') no-repeat -564px -145px;
+	width: 32px;
+	height: 24px;
+	transform: rotate(90deg);
+	z-index: 0;
+	left: 82px;
+	top: 138px;
+}
+
+.Ghandr2 {
+	background: url('../imgs/girl.png') no-repeat -598px -139px;
+	width: 37px;
+	height: 31px;
+	transform: rotate(90deg);
+	z-index: 0;
+	left: 87px;
+	top: 156px;
+}

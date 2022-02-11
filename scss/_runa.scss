@@ -1,0 +1,176 @@
+.runa {
+	position: fixed;
+	bottom: 231px;
+	right: 430px;
+	z-index: 999;
+	@include Responsive(MD) {
+		bottom: 245px;
+		right: 366px;
+	}
+	@include Responsive(XS) {
+		bottom: 211px;
+		right: 179px;
+	}
+}
+
+// spite
+.chibi {
+	position: absolute;
+}
+
+.Rpop {
+	background: url(../imgs/80854.png) no-repeat 0px -40px;
+	width: 128px;
+	height: 105px;
+	transform: rotate(-18deg);
+	top: -41px;
+	left: -79px;
+	z-index: 14;
+	font-family: 'Changa One';
+	color: #000;
+	font-size: 33px;
+	padding: 28px 0 0 59px;
+}
+
+.Rhead {
+	background: url('../imgs/runa.png') no-repeat -402px -27px;
+	width: 160px;
+	height: 159px;
+	z-index: 10;
+}
+
+.Rhead_Hair {
+	background: url('../imgs/runa.png') no-repeat -639px -500px;
+	width: 195px;
+	height: 117px;
+	top: 91px;
+	left: -18px;
+	z-index: 7;
+}
+
+.Rhead_Eye {
+	background: url('../imgs/runa.png') no-repeat -733px -29px;
+	width: 89px;
+	height: 44px;
+	top: 88px;
+	left: 32px;
+	z-index: 10;
+}
+
+.Rhead_Eye2 {
+	background: url('../imgs/runa.png') no-repeat -733px -93px;
+	width: 87px;
+	height: 36px;
+	top: 88px;
+	left: 32px;
+	z-index: 10;
+}
+
+.Rhead_Lip {
+	background: url('../imgs/runa.png') no-repeat -674px -30px;
+	width: 23px;
+	height: 12px;
+	top: 139px;
+	left: 65px;
+	z-index: 10;
+}
+
+// 
+.Rbody {
+	background: url('../imgs/runa.png') no-repeat -414px -215px;
+	width: 58px;
+	height: 74px;
+	top: 148px;
+	left: 50px;
+	z-index: 9;
+}
+
+.Rbody2 {
+	background: url('../imgs/runa.png') no-repeat -753px -410px;
+	width: 50px;
+	height: 41px;
+	top: 191px;
+	left: 53px;
+	z-index: 8;
+}
+
+.Rhandleft1 {
+	background: url('../imgs/runa.png') no-repeat -402px -330px;
+	width: 30px;
+	height: 41px;
+	top: 168px;
+	left: 41px;
+	z-index: 8;
+}
+
+.Rhandleft2 {
+	background: url('../imgs/runa.png') no-repeat -405px -407px;
+	width: 28px;
+	height: 38px;
+	top: 193px;
+	left: 31px;
+	z-index: 8;
+}
+
+.Rhandright1 {
+	background: url('../imgs/runa.png') no-repeat -469px -334px;
+	width: 28px;
+	height: 37px;
+	top: 168px;
+	left: 90px;
+	z-index: 9;
+}
+
+.Rhandright2 {
+	background: url('../imgs/runa.png') no-repeat -467px -408px;
+	width: 28px;
+	height: 37px;
+	top: 193px;
+	left: 102px;
+	z-index: 9;
+}
+
+.Rfootleft1 {
+	background: url('../imgs/runa.png') no-repeat -533px -322px;
+	width: 27px;
+	height: 47px;
+	top: 212px;
+	left: 53px;
+	z-index: 7;
+}
+
+.Rfootleft2 {
+	background: url('../imgs/runa.png') no-repeat -535px -399px;
+	width: 22px;
+	height: 53px;
+	top: 248px;
+	left: 59px;
+	z-index: 6;
+}
+
+.Rfootright1 {
+	background: url('../imgs/runa.png') no-repeat -595px -322px;
+	width: 28px;
+	height: 47px;
+	top: 212px;
+	left: 76px;
+	z-index: 7;
+}
+
+.Rfootright2 {
+	background: url('../imgs/runa.png') no-repeat -599px -399px;
+	width: 21px;
+	height: 53px;
+	top: 248px;
+	left: 85px;
+	z-index: 6;
+}
+
+.RcharaterShadow {
+	background: url('../imgs/runa.png') no-repeat -906px -372px;
+	width: 64px;
+	height: 27px;
+	top: 287px;
+	left: 49px;
+	z-index: 5;
+}
