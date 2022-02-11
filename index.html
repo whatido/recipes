@@ -1,33 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Live....5...4...3...2...1....Start</title>
-	<link rel="stylesheet" href="lib/bootstrap.min.css">
-	<link rel="stylesheet" href="lib/animate.min.css">
-	<link rel="stylesheet" href="../../../public/vendor/font-awesome/css/all.css">
-	<link rel="stylesheet" href="scss/main.css">
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hi recipes</title>
+		<link rel="stylesheet" href="lib/bootstrap.min.css">
+		<link rel="stylesheet" href="scss/main.css">
+	</head>
 
-<body>
-	<div class="live animate__animated animate__backInDown">
-		<div class="animate__animated animate__tada animate__delay-1s">LIVE</div>
-	</div>
-	<div class="runa"><span class="chibi Rpop">Hi</span><span class="chibi Rhead"></span><span class="chibi Rhead_Hair"></span><span class="chibi Rhead_Eye"></span><span class="chibi Rhead_Lip"></span><span class="chibi Rbody"></span><span class="chibi Rbody2"></span><span class="chibi Rhandleft1"></span><span class="chibi Rhandleft2"></span><span class="chibi Rhandright1"></span><span class="chibi Rhandright2"></span><span class="chibi Rfootleft1"></span><span class="chibi Rfootleft2"></span><span class="chibi Rfootright1"></span><span class="chibi Rfootright2"></span><span class="chibi RcharaterShadow"></span></div>
-	<div class="welcome">Consectetur adipisicing elit." "Etiam venenatis tortor sed lectus.</div>
-	<div class="SocialAll"><div class="Social Facebook Facebook_anima"></div><div class="Social Twitter Twitter_anima"></div><div class="Social Pixi Pixi_anima"></div></div>
-	<div class="container"><div class="row"><div class="col-lg-9 col-md-8 col-12"><section class="main"></section></div><div class="col-lg-3 col-md-4 col-12"><div class="streamchat"><ul></ul></div><div class="discordchat"><ul></ul></div></div></div></div>
-	<!-- Lib js -->
-	<script src="lib/jquery-3.2.1.min.js"></script>
-	<script src="lib/bootstrap.min.js"></script>
-	<script src="../../../public/vendor/font-awesome/js/all.js"></script>
-	<!-- Script -->
-	<script src="lib/chat-anima.js"></script>
-	<script src="lib/video.js"></script>
-	<script src="lib/main.js"></script>
-</body>
+	<body>
+		<nav class="leftMenu text-center">
+			<ul class="logo">
+				<li> <a href="#"> <img src="imgs/food_recipe_logo.png" alt=""> FOOD RECIPES </a> </li>
+			</ul>
+			<ul class="main-menu">
+				<li> <a href="#"> Home </a> </li>
+				<li> <a href="#"> Favorite </a> </li>
+				<li> <a href="#"> Admin </a> </li>
+				<li> <a href="#"> Shopping </a> </li>
+				<li> <a href="#"> Help </a> </li>
+				<li> <a href="#"> About us </a> </li>
+			</ul>
+			<ul class="social__main">
+				<li> <a href="#"> Social media </a> </li>
+				<li class="social__list">
+					<a href="#"><img src="imgs/facebook.png" alt=""></a>
+					<a href="#"><img src="imgs/instagram.png" alt=""></a>
+					<a href="#"><img src="imgs/tiktok.png" alt=""></a>
+					<a href="#"><img src="imgs/youtube.png" alt=""></a>
+				</li>
+				<li class="version">
+					<p>Version 1.0.0</p>
+				</li>
+			</ul>
+		</nav>
+		<main>
+			<div class="action">
+				<div class="search">
+					<form class="search-form">
+						<input type="search" value="" placeholder="Search your recipes here" class="search-input">
+						<button type="submit" class="search-button">
+							<img class="submit-button" src="imgs/icon_search.png" width="24px" alt="">
+						</button>
+						<div class="search-option">
+							<div>
+								<input name="type" type="radio" value="type-special" id="type-special" checked="">
+								<label for="type-special">
+									<img class="submit-button" src="imgs/icon_maindish.png" width="40px" alt="">
+									<span>Special</span>
+								</label>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="sort">
+					<form>
+						<select id="cars" class="search-form">
+							<option value="volvo">Sort by: A-Z</option>
+							<option value="saab">Sort by: Z-A</option>
+						</select>
+					</form>
+				</div>
+				<div class="grid">
+					<form>
+						<select id="cars" class="search-form">
+							<option value="volvo">Grid by: 3x4</option>
+						</select>
+					</form>
+				</div>
+			</div>
+			<div class="breadcrumbs">
+				<ul>
+					<li>
+						<form class="search-form">
+							<input type="search" value="" placeholder="Search your recipes here" class="search-input">
+							<button type="submit" class="search-button">
+								<img class="submit-button" src="imgs/icon_search.png" width="24px" alt="">
+							</button>
+							<div class="search-option">
+								<div>
+									<input name="type" type="radio" value="type-special" id="type-special" checked="">
+									<label for="type-special">
+										<img class="submit-button" src="imgs/icon_maindish.png" width="40px" alt="">
+										<span>Special</span>
+									</label>
+								</div>
+							</div>
+						</form>
+					</li>
+				</ul>
+			</div>
+			<div class="grid"></div>
+			<div class="pagination"></div>
+		</main>
+		<!-- Lib js -->
+		<script src="lib/jquery-3.2.1.min.js"></script>
+		<script src="lib/bootstrap.min.js"></script>
+		<!-- Script -->
+		<script src="lib/main.js"></script>
+	</body>
 
 </html>
